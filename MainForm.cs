@@ -12,7 +12,7 @@ namespace Feszbuk {
     public partial class MainForm : Form {
 
         // Version
-        public static string CURRENT_APP_VERSION = "1.1";
+        public static string CURRENT_APP_VERSION = "1.2";
 
         // Debug options
         bool AUTO_LOAD_DATABASE = true;
@@ -48,7 +48,7 @@ namespace Feszbuk {
         // Language strings:
         // (0 - Hungarian, 1 - English)
         #region LANGUAGE
-        public static int LANG = 0;
+        public static int LANG = 1;
         // MainForm
         public static string[] textNoProfiles = { "Kérem először nyissa meg az adatokat tartalmazó fájlt!", "Unable to log in: no profiles are loaded into memory" };
         public static string[] textLogInBtn = { "Bejelentkezés", "Sign In" };

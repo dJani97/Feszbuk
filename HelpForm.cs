@@ -46,6 +46,35 @@ Dobszai János
 I5D2TG
 ";
 
+
+        private string HelpText_EN = @"Fészbúk Help:
+
+Current version: " + MainForm.CURRENT_APP_VERSION + @"
+
+This is a school project for practicing C#, and Object Orientated Programming.
+The project is supposed to simulate a mini social-network, woth working funkcions such as:
+ - log in to distinc users (you can find them in the text file 'Feszbuk\bin\Debug\feszbuk_data.txt')
+ - view profiles
+ - sent messages
+ - add other people (who are not your friends yet)
+ - export data to a file
+ - load data from file (although this happens automatically)
+ - Select language (English or Hungarian)
+
+Known bugs / not implemented features:
+ - missing registration panel (you can only add users to the data file)
+ - Chat scrolling is not automatic
+
+Used free sources:
+https://www.flaticon.com/packs/kids-avatars
+https://icons8.com/web-app/new-icons/ultraviolet
+
+Made by:
+János Dobszai
+https://github.com/dJani97/
+";
+
+
         public HelpForm() {
             int LANG = MainForm.LANG;
             InitializeComponent();
@@ -58,7 +87,15 @@ I5D2TG
 
             rchTxtHelp.ForeColor = MainForm.DARK_BLUE;
             rchTxtHelp.Font = new Font("Microsoft Sans Serif", 12);
-            rchTxtHelp.Text = HelpText_HU;
+
+            if (LANG == 0) {
+                rchTxtHelp.Text = HelpText_HU;
+            }
+            else {
+                rchTxtHelp.Text = HelpText_EN;
+            }
+
+            
             this.Text = MainForm.textHelpFormTitle[LANG];
             btnClose.Text = MainForm.textCloseBtn[LANG];
             lblIndicator.Text = MainForm.textHelpFormTitle[LANG];
