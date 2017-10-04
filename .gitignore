@@ -67,7 +67,6 @@ dkms.conf
 [Rr]elease/
 x64/
 build/
-[Bb]in/
 [Oo]bj/
 
 # NuGet Packages
@@ -194,7 +193,6 @@ UpgradeLog*.XML
 UpgradeLog*.htm
 
 # vim
-*.txt~
 *.swp
 *.swo
  
