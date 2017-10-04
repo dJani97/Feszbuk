@@ -52,8 +52,8 @@ I5D2TG
 Current version: " + MainForm.CURRENT_APP_VERSION + @"
 
 This is a school project for practicing C#, and Object Orientated Programming.
-The project is supposed to simulate a mini social-network, woth working funkcions such as:
- - log in to distinc users (you can find them in the text file 'Feszbuk\bin\Debug\feszbuk_data.txt')
+The project is supposed to simulate a mini social-network, with working functions such as:
+ - log in to distinct users (you can find them in the text file 'Feszbuk\bin\Debug\feszbuk_data.txt')
  - view profiles
  - sent messages
  - add other people (who are not your friends yet)
