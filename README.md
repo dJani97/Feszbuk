@@ -1,4 +1,4 @@
-<h2>Feszbuk</h2>
+<h1>Feszbuk</h1>
 
 This is a school project for practicing C#, and Object Orientated Programming.
 The project is supposed to simulate a mini social-network, with a lot of working functionality.
