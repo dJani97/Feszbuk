@@ -1,0 +1,36 @@
+**profile**
+1;jani;123;Janos;Dobszai;1997;Pecs;IT_student;example@email.hu;06301234567;boy.png;2#3#4#5#6#7#8#9#10
+**profile**
+2;peti;123;Peter;Dobszai;2001;Nagyharsany;diak;valami@email.hu;06107654321;boy-2.png;1#7
+**profile**
+3;dani;123;Daniel;Mester;1995;London;enekes;example22@email.hu;06906733727;boy-14.png;4#1
+**profile**
+4;csabi;123;Csaba;Csusza;1951;Budapest;vasutas;vasutas_csabi@email.hu;06201111111;boy-10.png;3#1
+**profile**
+5;akos;123;Akos;Tihanyi;1981;Tihany;lampa szerelo;example@email.hu;06201111111;boy-6.png;1#6
+**profile**
+6;kati;123;Kata;Siklosi;1978;Siklos;pincer;example@email.hu;06201111111;girl-12.png;1#10#5
+**profile**
+7;roli;123;Roland;Kaszas;1994;Tihany;uszomester;example@email.hu;06201111111;boy-13.png;1#3#5
+**profile**
+8;mark;123;Mark;Banyasz;1976;Miskolc;banyasz;example@email.hu;06201111111;boy-15.png;1#10#9
+**profile**
+9;gabi;123;Gabriella;Harmonikus;1989;Szabolcs;zenesz;example@email.hu;06201111111;girl-16.png;3#1#8
+**profile**
+10;vince;123;Vince;Pince;1995;Villany;borasz;example@email.hu;06201111111;boy-13.png;1#8#6
+**profile**
+0;ures;123;Ures;Profil;0;Sehol;munkanelkuli;senki@email.semmi;00000000000;boy-16.png;-
+
+
+**message**
+1;2;Szia Peti!
+**message**
+2;1;Szia, mi a helyzet?
+**message**
+1;2;Gyere ki a retre kukuriku!
+**message**
+2;1;Maris megyek
+**message**
+3;4;Szia Csabi!
+**message**
+4;3;Szia Dani!
